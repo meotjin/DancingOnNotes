@@ -13,8 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if ((transform.position.x < 0) == (_target == 0)) _canTurn = true;
-        else _canTurn = false;
+        _canTurn = Mathf.Abs(transform.position.x) > 1 ? true : false;
 
         if (Input.GetMouseButtonDown(0) && _canTurn) _target = _target == 0 ? 1 : 0;
         _current = Mathf.MoveTowards(_current, _target, _speed * Time.deltaTime);
