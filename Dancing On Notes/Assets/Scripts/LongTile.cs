@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LongTile : MonoBehaviour
 {
-     [SerializeField] private float _speed;
+    [SerializeField] private float _speed;
     private HoldInputHandler _HoldInputHandler;
     private SpriteRenderer _spriteRenderer;
   
@@ -20,7 +20,7 @@ public class LongTile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && _HoldInputHandler._Holdtime >= 0.5f)
+        if (collision.gameObject.CompareTag("Player"))
         {
             _spriteRenderer.color = Color.green;
         }
