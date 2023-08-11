@@ -5939,3 +5939,19 @@ Received Import Request.
 Start importing Assets/Prefebs/LongTile.prefab using Guid(2a8f7eba597f09e45b16675c3cff365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece11f953ec1e8b4efcadf78d9cc4b3') in 0.130565 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1358.289075 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e92d421043fcb9e72c19bffbbeb13d') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.644862 seconds.
+  path: Assets/Prefebs/LongTile.prefab
+  artifactKey: Guid(2a8f7eba597f09e45b16675c3cff365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefebs/LongTile.prefab using Guid(2a8f7eba597f09e45b16675c3cff365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777576b5b38ce5950ab952701c4732a3') in 0.031336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9

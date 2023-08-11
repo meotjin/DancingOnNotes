@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TestTile
   - Destructor
+  - LongTile
   layers:
   - Default
   - TransparentFX
