@@ -19,11 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-<<<<<<< HEAD
-  m_Title: Simulator
-=======
-  m_Title: Project
->>>>>>> Basic-Tile
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -51,11 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-<<<<<<< HEAD
   controlID: 81
-=======
-  controlID: 83
->>>>>>> Basic-Tile
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,25 +64,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 49.6
-    width: 959.2
-    height: 721.2
+    y: 517.6
+    width: 1017.6
+    height: 253.20001
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
-=======
-    y: 588
-    width: 1017.6
-    height: 182.79999
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
->>>>>>> Basic-Tile
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -117,11 +98,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-<<<<<<< HEAD
   controlID: 83
-=======
-  controlID: 85
->>>>>>> Basic-Tile
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,13 +116,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 959.2
-    height: 49.6
-=======
     width: 1017.6
-    height: 588
->>>>>>> Basic-Tile
+    height: 517.6
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -229,11 +201,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< HEAD
   controlID: 82
-=======
-  controlID: 84
->>>>>>> Basic-Tile
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -279,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,17 +267,11 @@ MonoBehaviour:
     y: 0
     width: 293.60004
     height: 770.8
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-<<<<<<< HEAD
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
-=======
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
->>>>>>> Basic-Tile
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -359,15 +321,9 @@ MonoBehaviour:
     height: 431.59998
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-<<<<<<< HEAD
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
-=======
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
->>>>>>> Basic-Tile
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
@@ -379,7 +335,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -391,10 +346,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 576.8
+    x: 518.4
     y: 73.6
-    width: 958.2
-    height: 241.4
+    width: 1016.6
+    height: 105.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -409,14 +364,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 5675263313810274697, guid: 3252a113aa692664ab3fd81fd787b4a7, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.85
+    - e00: 1
       e01: 0
       e02: 0
-      e03: 40.900024
+      e03: 0.17791748
       e10: 0
-      e11: 0.85
+      e11: 1
       e12: 0
-      e13: -69.50998
+      e13: -166.29997
       e20: 0
       e21: 0
       e22: 1
@@ -438,7 +393,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &15
@@ -450,8 +405,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-=======
->>>>>>> Basic-Tile
   m_Script: {fileID: 13974, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -463,17 +416,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 576.8
-    y: 123.200005
-    width: 958.2
-    height: 700.2
-=======
     x: 518.4
-    y: 661.60004
+    y: 591.2
     width: 1016.6
-    height: 161.79999
->>>>>>> Basic-Tile
+    height: 232.20001
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -487,11 +433,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.GameView
   m_SerializedViewValues:
-<<<<<<< HEAD
-  - D:\DancingOnNotes\Dancing On Notes\Library\PlayModeViewStates\5f06b0a0a0b9d76449841093d9b36249
-=======
   - D:\DancingOnNotes\Dancing On Notes\Library\PlayModeViewStates\42b4aff42b4854c4db768ebebef6fab4
->>>>>>> Basic-Tile
   m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -518,11 +460,7 @@ MonoBehaviour:
     - '{"m_SerializationStates":{"thermalFoldout":false,"performanceFoldout":false,"developerFoldout":false,"indexerFoldout":false,"scalersFoldout":false,"deviceSettingsFoldout":false}}'
     - '{"m_SerializationStates":{"settingsFoldout":false,"vrrFoldout":false,"androidSystemFoldout":false}}'
     - '{}'
-<<<<<<< HEAD
-    scale: 28
-=======
     scale: 10
->>>>>>> Basic-Tile
     fitToScreenEnabled: 1
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
@@ -530,11 +468,7 @@ MonoBehaviour:
     screenIndex: 0
     networkReachability: 1
     systemLanguage: 10
-<<<<<<< HEAD
 --- !u!114 &16
-=======
---- !u!114 &15
->>>>>>> Basic-Tile
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -581,11 +515,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
 --- !u!114 &17
-=======
---- !u!114 &16
->>>>>>> Basic-Tile
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -630,11 +560,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Animations/Basic
-=======
-    - Assets/Scripts
->>>>>>> Basic-Tile
+    - Assets/Prefebs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -650,11 +576,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 225a0000
     m_LastClickedID: 23074
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000007a6300007c6300007e63000080630000826300008463000086630000886300008a6300008c6300008e630000
-=======
-    m_ExpandedIDs: 0000000090630000926300009463000096630000986300009a6300009c6300009e630000a0630000a2630000a4630000a6630000a8630000aa630000ac630000ae630000
->>>>>>> Basic-Tile
+    m_ExpandedIDs: 00000000a4630000a6630000a8630000aa630000ac630000ae630000b0630000b2630000b4630000b6630000b8630000ba630000bc630000be630000c0630000c2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,25 +601,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 7.4000244}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: ffffffff000000007a6300007c6300007e63000080630000826300008463000086630000886300008a6300008e630000fe63000006640000
-=======
-    m_ExpandedIDs: ffffffff0000000090630000926300009463000096630000986300009a6300009c6300009e630000a0630000a2630000a4630000a6630000a8630000ac630000ae630000
->>>>>>> Basic-Tile
+    m_ExpandedIDs: ffffffff00000000a4630000a8630000aa630000ac630000ae630000b0630000b2630000b4630000b6630000b8630000ba630000bc630000be630000c0630000c2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: BasicTile
-      m_OriginalName: BasicTile
+      m_Name: Player
+      m_OriginalName: Player
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25648
+      m_UserData: 25404
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -742,11 +660,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
-<<<<<<< HEAD
 --- !u!114 &18
-=======
---- !u!114 &17
->>>>>>> Basic-Tile
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,13 +682,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 518.4
     y: 73.6
-<<<<<<< HEAD
-    width: 958.2
-    height: 28.599998
-=======
     width: 1016.6
-    height: 567
->>>>>>> Basic-Tile
+    height: 496.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -790,7 +699,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -160, y: -26.399994}
-      snapOffsetDelta: {x: 0, y: -0.000030517578}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -803,11 +712,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -141, y: 149}
-<<<<<<< HEAD
-      snapOffsetDelta: {x: 0, y: -146.6}
-=======
       snapOffsetDelta: {x: 0, y: 0}
->>>>>>> Basic-Tile
       snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
@@ -845,8 +750,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
@@ -872,11 +777,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 67.5, y: -124}
-<<<<<<< HEAD
-      snapOffsetDelta: {x: 0, y: 95.2}
-=======
       snapOffsetDelta: {x: 0, y: 0}
->>>>>>> Basic-Tile
       snapCorner: 2
       id: Orientation
       index: 0
@@ -1056,10 +957,10 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: -24}
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: Scene View/TrailRenderer
       index: 9
       layout: 4
@@ -1084,7 +985,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: -19.2}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Open Tile Palette
       index: 0
@@ -1097,7 +998,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: -19.2}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
       index: 1
@@ -1110,7 +1011,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: -19.2}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Path
       index: 10
@@ -1141,15 +1042,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: -1.0164957, y: -2.4951594, z: -9.919209}
+    m_Target: {x: -1.5, y: -2.5, z: 0}
     speed: 2
-    m_Value: {x: -1.0164957, y: -2.4951594, z: -9.919209}
-=======
-    m_Target: {x: 0.12829688, y: 0.15284155, z: -0.00776277}
-    speed: 2
-    m_Value: {x: 0.11900537, y: 0.14195845, z: -0.0072078644}
->>>>>>> Basic-Tile
+    m_Value: {x: 4.0965943, y: -4.9459224, z: 0.093417645}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1199,15 +1094,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 2.206904
+    m_Target: 0.35707143
     speed: 2
-    m_Value: 2.206904
-=======
-    m_Target: 1.2886244
-    speed: 2
-    m_Value: 1.2331334
->>>>>>> Basic-Tile
+    m_Value: 2.866586
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1269,15 +1158,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 0cfbffff
-      m_LastClickedID: -1268
-      m_ExpandedIDs: 0efbffff
-=======
-      m_SelectedIDs: 30640000
-      m_LastClickedID: 0
-      m_ExpandedIDs: a8f6ffff34640000
->>>>>>> Basic-Tile
+      m_SelectedIDs: bec4ffff
+      m_LastClickedID: -15170
+      m_ExpandedIDs: dac7ffffe6670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
