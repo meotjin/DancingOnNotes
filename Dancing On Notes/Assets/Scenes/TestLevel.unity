@@ -468,10 +468,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _times:
+  - 10
   - 0.5
   - 0.5
-  - 0.5
-  _lives: 5
+  - 1
+  - 2
+  - 0.2
+  _lives: 6
   _notes: {fileID: 6596278902409134930, guid: 22b1ed0f0c1c6e840ac202f62c2df415, type: 3}
   _playerPosition: {fileID: 1658786853}
   _platform: {fileID: 405085303}
