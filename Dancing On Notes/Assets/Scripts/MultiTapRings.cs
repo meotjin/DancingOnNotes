@@ -38,7 +38,10 @@ public class MultiTapRings : MonoBehaviour
         if (_index > _times.Count)
         {
             _player.GetComponent<PlayerController>().CanMove();
-            _tile.GetComponent<MultiTapTile>().Destruct();
+            if (_tile != null)
+            {
+                _tile.GetComponent<MultiTapTile>().Destruct(); 
+            }
             Destroy(gameObject);
         }
         else if (_blue.transform.localScale.x <= 1)
