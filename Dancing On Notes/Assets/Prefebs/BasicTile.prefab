@@ -145,3 +145,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 8
   _notes: {fileID: 6596278902409134930, guid: 22b1ed0f0c1c6e840ac202f62c2df415, type: 3}
+  _momentumController: {fileID: 0}
+  _point: 100
+  _penalty: -300
