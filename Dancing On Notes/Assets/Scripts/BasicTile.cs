@@ -7,13 +7,15 @@ public class BasicTile : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private GameObject _notes;
-    private MomentumController _momentumController;
+    private MomentumController _momentumController1;
+    private MomentumController _momentumController2;
     [SerializeField] private float _point;
     [SerializeField] private float _penalty;
 
     private void Awake()
     {
-        _momentumController = GameObject.Find("Momentum").GetComponent<MomentumController>();
+        _momentumController1 = GameObject.Find("Momentum1").GetComponent<MomentumController>();
+        _momentumController2 = GameObject.Find("Momentum2").GetComponent<MomentumController>();
     }
 
     private void Update()
@@ -27,12 +29,14 @@ public class BasicTile : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Instantiate(_notes,transform.position,_notes.transform.rotation);
-            _momentumController.ChangeMomentum(_point);
+            _momentumController1.ChangeMomentum(_point);
+            _momentumController2.ChangeMomentum(_point);
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Destructor"))
         {
-            _momentumController.ChangeMomentum(_penalty);
+            _momentumController1.ChangeMomentum(_penalty);
+            _momentumController2.ChangeMomentum(_penalty);
             Destroy(gameObject);
         }
     }
