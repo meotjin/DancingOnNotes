@@ -23,6 +23,11 @@ public class MomentumController : MonoBehaviour
         //_slider.value = Mathf.Lerp();
     }
 
+    public float GetMomentum()
+    {
+        return _momentum;
+    }
+
     public void ChangeMomentum(float momentum)
     {
         _momentum += momentum;

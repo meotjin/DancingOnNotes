@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class BasicTile : MonoBehaviour
@@ -9,6 +6,7 @@ public class BasicTile : MonoBehaviour
     [SerializeField] private GameObject _notes;
     private MomentumController _momentumController1;
     private MomentumController _momentumController2;
+    private GameManager _gameManager;
     [SerializeField] private float _point;
     [SerializeField] private float _penalty;
 
@@ -16,6 +14,7 @@ public class BasicTile : MonoBehaviour
     {
         _momentumController1 = GameObject.Find("Momentum1").GetComponent<MomentumController>();
         _momentumController2 = GameObject.Find("Momentum2").GetComponent<MomentumController>();
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     private void Update()
@@ -25,12 +24,12 @@ public class BasicTile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.CompareTag("Player"))
         {
             Instantiate(_notes,transform.position,_notes.transform.rotation);
             _momentumController1.ChangeMomentum(_point);
             _momentumController2.ChangeMomentum(_point);
+            _gameManager.Score();
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Destructor"))
